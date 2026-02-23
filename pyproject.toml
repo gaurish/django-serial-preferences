@@ -26,4 +26,4 @@ packages = ["src/serial_preferences"]
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "tests.settings"
-pythonpath = ["src"]
+pythonpath = ["src", "."]
